@@ -1,0 +1,29 @@
+.container{
+background: linear-gradient(360deg, #282877 0%, rgba(23, 25, 43, 0) 120%);
+}
+
+/* h1{
+font-size: 40px;
+text-align: center;
+font-weight: bold;
+letter-spacing: 2px;
+color:#333;
+margin-top:20px;
+padding-bottom: 10px;
+}
+h1:after{
+content:'';
+background: #333;
+display:block;
+height:3px;
+width:150px;
+margin:10px auto;
+} */
+.row{
+display: flex;
+flex-direction: row;
+margin-top: 50px;
+gap:30px;
+padding-left:20px;
+justify-content: center;
+}

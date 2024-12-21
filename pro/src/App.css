@@ -1,0 +1,28 @@
+.Ap{
+    width:100%;
+    height:100vh;
+justify-content: center;
+background-color: var(--background-color);
+}
+.title{
+/* background-color: var(--primary-text-color); */
+color: var(--foreground-color);
+}
+
+ [data-theme="dark"] {
+--background-color: #0a0a0ad3;
+--foreground-color: #ecedf1;
+--primary-text-color: #a7d5e4;
+--secondary-text-color: #b3bac8;
+    --toggle-bg:#283452;
+    --toggle-fg:#00a6ff;
+--bg-color:#244d52e0;
+}
+[data-theme="light"] {
+--background-color: #f8f7fa;
+--foreground-color: #232121;
+--primary-text-color: #333;
+    --secondary-text-color: #666;
+    --toggle-bg:#f0f4f9;
+    --toggle-fg:#333;
+}
